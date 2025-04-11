@@ -7,11 +7,11 @@ I manually built:
 - a data loader for the MNIST `.idx` files,
 - a simple feedforward neural network (fully connected layers + ReLU),
 - my own softmax and cross-entropy loss functions,
-- a custom training loop using functional-style gradient updates.
+- the training loop.
 
-The model was implemented using **MLX**, since I am working on a MacBook with Apple Silicon.
+The model was implemented using **MLX** instead of **NumPy**, since I am working on a MacBook with Apple Silicon.
 
-✅ Final performance:  
+Final performance:  
 
 - **Loss after 10 epochs:** ~0.024  
 - **Test accuracy after 10 epochs:** ~97.4%
